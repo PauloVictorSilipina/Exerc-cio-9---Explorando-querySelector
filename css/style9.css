@@ -1,0 +1,19 @@
+.accordion-cabecalho {
+    cursor: pointer;
+    padding: 1em;
+    background-color: rgba(0, 100, 150, 0.2);
+    border: none;
+}
+
+.accordion-conteudo {
+    cursor: pointer;
+    padding: 1em;
+    background-color: rgba(0, 100, 150, 0.2);
+    border: none;
+    border-top: 1px solid ;
+    display: none;
+}
+
+.active .accordion-conteudo {
+    display: block;
+}
